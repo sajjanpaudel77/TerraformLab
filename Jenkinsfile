@@ -22,8 +22,14 @@ pipeline{
 
             }
         }
-
+        
+        //stage 3: Deploying
+        stage ('Deploy'){
+            steps {
+                echo 'deploying...'
+            }
+        }
     }
-      }
+}
 
 
